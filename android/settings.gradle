@@ -1,0 +1,9 @@
+rootProject.name = 'PictureCropping'
+include ':react-native-watson'
+project(':react-native-watson').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-watson/android')
+include ':react-native-image-crop-picker'
+project(':react-native-image-crop-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-crop-picker/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+include ':app'
